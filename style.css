@@ -75,7 +75,7 @@ header{
 
 .header-content h1{
     font-size: 85px;
-    font-family: Inter;
+    font-family: "Inter";
     margin-bottom: 30px;
     
 }
@@ -103,4 +103,61 @@ h1 span{
 
 .btn1:hover{
     background-color: rgb(66, 150, 150);
+}
+
+.meet-speakers {
+    padding: 50px 8%;
+    align-items: center;
+    align-content: center;
+
+}
+
+.meet-speakers h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.speaker-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    font-family: "Inter";
+
+}
+
+
+.speaker-card{
+    padding: 0px 15px;
+    background: #FBEFEF;
+    border-radius: 1opx;
+}
+
+.speaker-card-container .speaker-card img{
+    width: 100%;
+    border-radius: 12px 12px 12px 12px;
+    margin-bottom: 10px;
+}
+
+.skill{
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 500;
+    color: blue;
+    margin-bottom: 10px;
+    
+}
+
+.name{
+    font-size: 22px;
+    font-style: bold;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+
+.work{
+    font-size: 16px;
+    font-style: regular;
+    color: rgb(130, 151, 152);
 }
