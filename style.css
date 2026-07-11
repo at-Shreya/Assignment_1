@@ -478,3 +478,27 @@ h1 span{
 }
 
 
+
+
+
+.footer{
+    background-color: #0D1B2A;
+    color:#6b7280;
+    font-size: 18px;
+    font-weight: 500;
+    /* color: white; */
+    padding: 70px 8%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    /* margin-bottom: 50px; */
+}
+
+.left-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
